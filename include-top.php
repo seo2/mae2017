@@ -40,9 +40,9 @@ if(ICL_LANGUAGE_CODE=='en'){
 	$btn2 = "Veja mais";
 }else{
     $menu3 = "Patio de Comidas";
-    $menu4 = "Novedades";
+    $menu4 = "Moda";
     $menu5 = "Entretención";
-    $menu6 = "novedades";
+    $menu6 = "Novedades";
     $menu7 = "tiendas";
 	$menu8 = "Galería";
     $menu10 = "servicio al cliente";
@@ -123,15 +123,17 @@ if(ICL_LANGUAGE_CODE=='en'){
                                  <ul class="nav navbar-nav">
                                      <li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/tiendas#tiendas">tiendas</a></li>
+                                     <li><a href="<?php bloginfo('url'); ?>/moda#tiendas">Moda</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">patio de comidas</a></li>
                                    <!--   <li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES</a></li> -->
-                                     <li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias"><?php echo $menu8; ?></a></li>
+                                     <li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">Galería</a></li>
                                 </ul>
                             </div>
 
                             <div class="divisor_h"></div>
                             <div class="col-sm-12 col-md-6">
 							<ul class="nav navbar-nav">
+								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretención</a></li>
