@@ -76,7 +76,7 @@ Template name: Moda Tiendas
                                               <h4 class="nombre_tienda"><?php echo $t['nombre']; ?></h4>
                                                <div class="borde"> </div>
                                               <span class="bg_nombre_tienda"> </span>
-					                        	<span id="adidas" class="overlay_img" data-clander="<?php echo $imagen1; ?>" data-id="<?php echo $t['punto_interes']; ?>" data-tienelogo="<?php echo $haylogo; ?>" data-logo="<?php echo $logo; ?>" data-desc='<?php echo trim($t['descripcion']); ?>' data-img="<?php echo $imagen; ?>" data-fono="<?php echo $t['telefono_punto_interes']; ?>" data-piso="<?php echo $t['numero_piso']; ?>" data-url="<?php echo $url; ?>" data-mapa="<?php bloginfo('template_url'); ?>/ws/uploads/plano_<?php echo $t['punto_interes']; ?>.jpg" data-nombre="<?php echo $t['nombre']; ?>" ></span>
+					                        	<span id="adidas" class="overlay_img" data-clander="<?php echo $imagen1; ?>" data-id="<?php echo $t['punto_interes']; ?>" data-tienelogo="<?php echo $haylogo; ?>" data-logo="<?php echo $logo; ?>" data-desc='<?php echo trim($t['descripcion']); ?>' data-img="<?php echo $imagen; ?>" data-fono="<?php echo $t['telefono_punto_interes']; ?>" data-piso="<?php echo $t['numero_piso']; ?>" data-local="<?php echo $t['local']; ?>" data-url="<?php echo $url; ?>" data-mapa="<?php bloginfo('template_url'); ?>/ws/uploads/plano_<?php echo $t['punto_interes']; ?>.jpg" data-nombre="<?php echo $t['nombre']; ?>" ></span>
 					                            <img class="img-responsive" src="<?php echo $imagen; ?>">
 					                        </a>
 				                            <div class="box_logo_tienda">
