@@ -50,6 +50,7 @@ if(isset($_GET['tiendaID'])){
 			}
 			
 			$nombre = $t['nombre'];
+			$local = $t['local'];
 	    }
 	}
 	$style = 'style="display:block"';
@@ -91,6 +92,7 @@ if(isset($_GET['tiendaID'])){
 						?>
                         <h3 class="<?php echo $clase; ?>" id="contactodatos"> CONTACTO: <span class="telefono"><?php echo $fono; ?><span></h3>
                         <h4> PISO <span class="piso"><?php echo $piso; ?></span></h4> 
+                        <h4> LOCAL <span class="piso"><?php echo $local; ?></span></h4> 
 						
                         <div class="clearfix"></div>
                         <a href="<?php echo $url; ?>" target="_blank" class="url"><?php echo preg_replace('#^https?://#', '', $url); ?></a>
