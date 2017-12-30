@@ -29,7 +29,7 @@ if(isset($_GET['tiendaID'])){
         	}
         	
         	              	
-        	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.jpg';
+        	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.png';
         	$logo = get_template_directory_uri().$logo;
         	
     		if(is_url_exist($logo)){

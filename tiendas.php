@@ -113,16 +113,24 @@ if(ICL_LANGUAGE_CODE=='en'){
 										  	$imagen  	= bfi_thumb( $imagen, $params1 );
                                     	}
                                     	
-                                    	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.jpg';
+                                    	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.png';
                                     	$logo = get_template_directory_uri().$logo;
                                     	
                                 		if(is_url_exist($logo)){
 	                                		$logo = $logo;
 	                                		$haylogo = 'si';
 									  	}else{
-                                        	$logo 	= "/assets/img/logo_381.jpg?v=3";
-										  	$logo	= get_template_directory_uri().$logo;
-	                                		$haylogo = 'no';
+	                                    	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.jpg';
+	                                    	$logo = get_template_directory_uri().$logo;
+	
+	                                		if(is_url_exist($logo)){
+		                                		$logo = $logo;
+		                                		$haylogo = 'si';
+										  	}else{
+	                                        	$logo 	= "/assets/img/logo_381.jpg?v=3";
+											  	$logo	= get_template_directory_uri().$logo;
+		                                		$haylogo = 'no';
+										  	}
 									  	}
                                     	
                                 
