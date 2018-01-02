@@ -55,7 +55,7 @@
 		                                        <a href="<?php bloginfo('url'); ?>/horarios"><i class="fa fa-clock-o" aria-hidden="true"></i>  <?php echo $tit1; ?> </a>
 		                                      </li>
 		                                      <li>
-		                                        <a href="https://www.google.cl/maps/place/Arauco+San+Antonio/@-33.5819812,-71.6160361,17z/data=!3m1!4b1!4m5!3m4!1s0x966238e6aa6391c9:0x39ebbb26447ed37c!8m2!3d-33.5819812!4d-71.6138421" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
+		                                        <a href="https://goo.gl/maps/GygkQ4EHz982" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
 		                                      </li>
 		                                    </ul>
 		                              </div>

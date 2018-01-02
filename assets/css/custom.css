@@ -2411,7 +2411,24 @@ section.main_content section.travellers_servicios_adicionales .content_servicio 
 }
 
 
+@media (max-width: 991px){
+	section.main_content .box .box_slider .item a .caption h3.title_26 {
+    	font-size: 26px;
+	}
 
+}
+@media (max-width: 480px){
+	section.main_content .box .box_slider .item a .caption h3.title_26 {
+    	font-size: 28px;
+	}
+
+}
+@media (max-width: 479px){
+	section.main_content .box .box_slider .item a .caption h3.title_26 {
+    	font-size: 21px;
+	}
+
+}
 
 
 

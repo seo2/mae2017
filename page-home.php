@@ -93,9 +93,6 @@ if(ICL_LANGUAGE_CODE=='en'){
                    </div> <!-- caluga patio de comidas -->
               </div>
               <div class="col-sm-6 col-md-6">
-
-              </div> <!-- / caluga patio comidas -->
-              <div class="col-sm-6 col-md-6">
                    <div class="box">
                          <div class="box_slider owl-carousel owl-theme ">
  					   	<?php
@@ -132,15 +129,15 @@ if(ICL_LANGUAGE_CODE=='en'){
 			                            <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">
 			                                <?php if($e==1){ ?>
 			                                          <div class="caption entretencion">
-			                                           <!--   <p>ZONA  </p> -->
+
 			                                              <h3>Entretención</h3>
 			                                              <div class="divider"> </div>
 			                                          </div>
 			                                   <?php } ?>
-			                                   <div class="box_slide" style="background: url(<?php echo get('boulevard_imagen_slider',$slider); ?>);"> </div>
+			                                <div class="box_slide" style="background: url(<?php echo get('boulevard_imagen_slider',$slider); ?>);"> </div>
 			                            </a>
                                   </div> <!-- item -->
-                           <?php } ?>
+                           		<?php } ?>
                            </div><!-- box slider  -->
                     </div> <!-- caluga zona de entretencion -->
               </div>
@@ -219,7 +216,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 								    	<?php if($e==1){ ?>
 											<div class="caption entretencion">
 												<p> nuestros </p>
-												<h3>estacionamientos</h3>
+												<h3 class="title_26">estacionamientos</h3>
 												<div class="divider"> </div>
 											</div>
 								       <?php } ?>
@@ -249,6 +246,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                     </div>  caluga vertical grande -->
                 </div>
             </div> <!-- row -->
+        </div>
           <?php endwhile; else: ?>
           <?php endif; ?>
 
