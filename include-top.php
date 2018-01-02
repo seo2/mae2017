@@ -76,7 +76,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                  <span class="icon-bar bottom_bar"></span>
                </button>
                   <div class="logo">
-                    <a href="<?php bloginfo('url'); ?>"> Arauco San Antonio </a>
+                    <a href="<?php bloginfo('url'); ?>"> Mall Arauco Estación </a>
                   </div> <!-- brand -->
 
 <!--
@@ -125,8 +125,9 @@ if(ICL_LANGUAGE_CODE=='en'){
                                      <li><a href="<?php bloginfo('url'); ?>/tiendas#tiendas">tiendas</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/moda#tiendas">Moda</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">patio de comidas</a></li>
-                                   <!--   <li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES</a></li> -->
-                                     <li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">Galería</a></li>
+                                     <li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretención</a></li>
+                                     <li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES (Ajedrez)</a></li>
+
                                 </ul>
                             </div>
 
@@ -136,7 +137,8 @@ if(ICL_LANGUAGE_CODE=='en'){
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
-								<li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretención</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">Galería</a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/estacionamientos">estacionamientos</a></li>
                                 <li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente">servicio al cliente</a></li>
 
 							</ul>
@@ -162,7 +164,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                       </li>
 
                                       <li>
-                                            <a href="https://www.google.cl/maps/place/Arauco+San+Antonio/@-33.5819812,-71.6160361,17z/data=!3m1!4b1!4m5!3m4!1s0x966238e6aa6391c9:0x39ebbb26447ed37c!8m2!3d-33.5819812!4d-71.6138421" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>CÓMO LLEGAR</a>
+                                            <a href="https://goo.gl/maps/GygkQ4EHz982" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>CÓMO LLEGAR</a>
                                       </li>
                                     </ul>
                               </div>

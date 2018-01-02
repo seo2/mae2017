@@ -83,10 +83,11 @@ if(ICL_LANGUAGE_CODE=='en'){
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div class="bullet-content">
-                    <h2>Arauco San Antonio</h2>
-                    <p>Ramón Barros Luco 105,<br>
-                    San Antonio<br>
-                    <a href="https://www.google.cl/maps/place/Arauco+San+Antonio/@-33.5819812,-71.6160361,17z/data=!3m1!4b1!4m5!3m4!1s0x966238e6aa6391c9:0x39ebbb26447ed37c!8m2!3d-33.5819812!4d-71.6138421" class="link_rojo" target="_blank"><?php echo $tit1; ?></a></p>
+                    <h2>Arauco Estación </h2>
+                    <p>Alameda Lib. Bdo. O'Higgins 3250,<br>
+                   		Estación Central, Santiago, Chile<br>
+                    	<a href="https://goo.gl/maps/GygkQ4EHz982" class="link_rojo" target="_blank"><?php echo $tit1; ?></a>
+                	</p>
                   </div>
                 </li>
                 <li class="bullet clearfix">

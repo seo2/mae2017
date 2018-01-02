@@ -55,22 +55,19 @@ if(ICL_LANGUAGE_CODE=='en'){
                           <div class="item">
                               <a href="<?php bloginfo('url'); ?>/tiendas#tiendas">
 	                            <?php if($e==1){ ?>
-                                   <div class="caption tiendas">
-                                      <p>NUESTRAS</p>
-                                       <h3>TIENDAS</h3>
-                                       <div class="divider"> </div>
-                                   </div>
+                                    <div class="caption tiendas">
+                                     <!-- 	<p>NUESTRAS</p> -->
+                                      	<h3>TIENDAS</h3>
+                                       	<div class="divider"> </div>
+                                    </div>
                                 <?php } ?>
-                                <div class="box_slide" style="background: url(<?php echo get('distrito_de_lujo_imagen_slider',$slider); ?>);"> </div>
+                                	<div class="box_slide" style="background: url(<?php echo get('distrito_de_lujo_imagen_slider',$slider); ?>);"> </div>
                               </a>
                           </div>
                         <?php } ?>
 
                       </div><!-- box slider  -->
                   </div> <!-- / caluga nuestras tiendas -->
-              </div>
-
-              <div class="col-sm-6 col-md-6">
                   <div class="box">
                       <div class="box_slider owl-carousel owl-theme ">
 					   	<?php
@@ -83,8 +80,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                <a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">
 	                            <?php if($e==1){ ?>
                                    <div class="caption foodcourt">
-                                      <p>NUESTRA VARIEDAD en </p>
-                                       <h3>Patio de Comidas </h3>
+                                     <!--  <p>NUESTRA VARIEDAD en </p> -->
+                                       <h3>Patio de Comida</h3>
                                        <div class="divider"> </div>
                                    </div>
                                 <?php } ?>
@@ -93,8 +90,60 @@ if(ICL_LANGUAGE_CODE=='en'){
                             </div> <!-- item -->
                         <?php } ?>
                        </div><!-- box slider  -->
-                   </div>
+                   </div> <!-- caluga patio de comidas -->
+              </div>
+              <div class="col-sm-6 col-md-6">
+
               </div> <!-- / caluga patio comidas -->
+              <div class="col-sm-6 col-md-6">
+                   <div class="box">
+                         <div class="box_slider owl-carousel owl-theme ">
+ 					   	<?php
+ 						   	$e = 0;
+ 							$sliders = get_order_group('moda_imagen_slider');
+ 							foreach($sliders as $slider){
+ 								$e++;
+ 						?>
+                           <div class="item">
+                               <a href="<?php bloginfo('url'); ?>/tiendas#moda">
+ 	                            <?php if($e==1){ ?>
+                                    <div class="caption tiendas">
+                                     <!--   <p>NUESTRAS</p> -->
+                                        <h3>moda</h3>
+                                        <div class="divider"> </div>
+                                    </div>
+                                 <?php } ?>
+                                 <div class="box_slide" style="background: url(<?php echo get('moda_imagen_slider',$slider); ?>);"> </div>
+                               </a>
+                           </div>
+                         <?php } ?>
+
+                       </div><!-- box slider  -->
+                   </div> <!-- / caluga moda -->
+              	   <div class="box">
+                        <div class="box_slider owl-carousel owl-theme ">
+                            <?php
+                              $e = 0;
+                            $sliders = get_order_group('boulevard_imagen_slider');
+                            foreach($sliders as $slider){
+                              $e++;
+                          	?>
+                                   	<div class="item">
+			                            <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">
+			                                <?php if($e==1){ ?>
+			                                          <div class="caption entretencion">
+			                                           <!--   <p>ZONA  </p> -->
+			                                              <h3>Entretención</h3>
+			                                              <div class="divider"> </div>
+			                                          </div>
+			                                   <?php } ?>
+			                                   <div class="box_slide" style="background: url(<?php echo get('boulevard_imagen_slider',$slider); ?>);"> </div>
+			                            </a>
+                                  </div> <!-- item -->
+                           <?php } ?>
+                           </div><!-- box slider  -->
+                    </div> <!-- caluga zona de entretencion -->
+              </div>
                 <div class="col-sm-12">
                       <!-- NOVEDADES -->
                       <div class="box_horizontal">
@@ -144,8 +193,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                   <a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">
 	                            <?php if($e==1){ ?>
                                    <div class="caption galeria">
-                                      	<p>NUESTRAs</p>
-                                       	<h3>Galerías </h3>
+                                      	<p>NUESTRA</p>
+                                       	<h3>Galería </h3>
                                        <div class="divider"> </div>
                                    </div>
                                 <?php } ?>
@@ -154,38 +203,32 @@ if(ICL_LANGUAGE_CODE=='en'){
                                </div>
                         <?php } ?>
                           </div><!-- box slider  -->
-                   </div><!-- travellers -->
-
-                     <div class="box">
+                   </div><!-- galeria -->
+              </div>
+              <div class="col-sm-6 col-md-6">
+              	<div class="box">
                         <div class="box_slider owl-carousel owl-theme ">
                             <?php
-                              $e = 0;
-                            $sliders = get_order_group('boulevard_imagen_slider');
-                            foreach($sliders as $slider){
-                              $e++;
-                          ?>
-                                             <div class="item">
-                                     <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">
-                                <?php if($e==1){ ?>
-                                          <div class="caption entretencion">
-                                             <p>ZONA  </p>
-                                              <h3>Entretención</h3>
-                                              <div class="divider"> </div>
-                                          </div>
-                                   <?php } ?>
-                                   <div class="box_slide" style="background: url(<?php echo get('boulevard_imagen_slider',$slider); ?>);"> </div>
-                                     </a>
-                                  </div> <!-- item -->
+								$e = 0;
+								$sliders = get_order_group('estacionamientos_imagen_slider');
+								foreach($sliders as $slider){
+								$e++;
+                          	?>
+								<div class="item">
+									<a href="<?php bloginfo('url'); ?>/estacionamientos">
+								    	<?php if($e==1){ ?>
+											<div class="caption entretencion">
+												<p> nuestros </p>
+												<h3>estacionamientos</h3>
+												<div class="divider"> </div>
+											</div>
+								       <?php } ?>
+								       <div class="box_slide" style="background: url(<?php echo get('estacionamientos_imagen_slider',$slider); ?>);"> </div>
+								    </a>
+								</div> <!-- item -->
                            <?php } ?>
-                           </div><!-- box slider  -->
-                    </div>
-
-              </div>
-
-              <div class="col-sm-6 col-md-6">
-                   <div class="image_dynamic">
-                      <!--  <div class="lente"></div> -->
-                      <!-- SLIDER DESTACADO HOME -->
+                           </div><!-- caluga estacionamientos  -->
+                   <!-- <div class="image_dynamic">
                       <div class="slider_destacado_home owl-carousel owl-theme box">
                           <?php
                             $e = 0;
@@ -203,8 +246,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                          </div>
                            <?php } ?>
                       </div>
-
-                    </div>
+                    </div>  caluga vertical grande -->
                 </div>
             </div> <!-- row -->
           <?php endwhile; else: ?>

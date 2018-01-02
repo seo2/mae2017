@@ -26,8 +26,18 @@ if(ICL_LANGUAGE_CODE=='en'){
                     </a>
                 </div>
                 <div class="item">
-                    <a href="http://araucoestacion.cl/" target="_blank">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_estacion.svg" alt="" class="center-block">
+                    <a href="http://www.araucquilicura.cl/" target="_blank">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_quilicura.svg" alt="" class="center-block">
+                    </a>
+                </div>
+        		 <div class="item">
+                    <a href="http://www.araucosanantonio.cl/" target="_blank">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_san_antonio.svg" alt="" class="center-block">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="http://www.araucochillan.cl/" target="_blank">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_chillan.svg" alt="" class="center-block">
                     </a>
                 </div>
                 <div class="item">
@@ -35,16 +45,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_coronel.svg" alt="" class="center-block">
                     </a>
                 </div>
-            <!--     <div class="item">
-                    <a href="http://www.araucosanantonio.cl/" target="_blank">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_san_antonio.svg" alt="" class="center-block">
-                    </a>
-                </div> -->
-                <div class="item">
-                    <a href="http://www.araucochillan.cl/" target="_blank">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_chillan.svg" alt="" class="center-block">
-                    </a>
-                </div>
+
                 <div class="item">
                     <a href="http://araucopremiumoutlet.cl/" target="_blank">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_premium_outlet.svg" alt="" class="center-block">
@@ -60,7 +61,6 @@ if(ICL_LANGUAGE_CODE=='en'){
 		  	<li>
             	<a class="hvr-float" href="http://www.parquearauco.cl/" target="_blank">
                 	<img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/parque_arauco_xs.svg" class="logo_size">
-                	<!-- <img src="<?php bloginfo('template_url'); ?>/assets/img/logo_xs.svg" class="logo_size"> -->
               	</a>
             </li>
             <li>
@@ -69,13 +69,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                 </a>
             </li>
             <li>
-                <a class="hvr-float" href="http://araucoestacion.cl/" target="_blank">
-                  <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_estacion.svg" class="logo_size">
-                </a>
-            </li>
-            <li>
-                <a class="hvr-float" href="http://www.araucocoronel.cl/" target="_blank">
-                  <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_coronel.svg" class="logo_size">
+                <a class="hvr-float" href="http://www.araucoquilicura.cl/" target="_blank">
+                  <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_quilicura.svg" class="logo_size">
                 </a>
             </li>
             <li>
@@ -86,6 +81,11 @@ if(ICL_LANGUAGE_CODE=='en'){
             <li>
                 <a class="hvr-float" href="http://www.araucochillan.cl/" target="_blank">
                   <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_chillan.svg" class="logo_size">
+                </a>
+            </li>
+            <li>
+                <a class="hvr-float" href="http://www.araucocoronel.cl/" target="_blank">
+                  <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/arauco_coronel.svg" class="logo_size">
                 </a>
             </li>
             <li>

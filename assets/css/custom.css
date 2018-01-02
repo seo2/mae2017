@@ -2247,12 +2247,12 @@ nav #navbar .container.menu_container .col-sm-12 .box_newsletter .form_neswslett
 @media (max-width: 991px){
    section.top #menu_mobile .logo a,
    section.top #nav_mobile .navbar-header .logo a {
-    background: url(../img/logos_mall/arauco_san_antonio.svg) no-repeat;
+    background: url(../img/logos_mall/arauco_estacion.svg) no-repeat;
   }
 }
 
 .modal_overlay .box_modal .header_modal .logo {
-    background: url(../img/logos_mall/arauco_san_antonio.svg) no-repeat;
+    background: url(../img/logos_mall/arauco_estacion.svg) no-repeat;
     background-position: center;
     background-size: cover;
     width: 116px;
@@ -2266,10 +2266,10 @@ nav #navbar .container.menu_container .col-sm-12 .box_newsletter .form_neswslett
     top: 100px;
 }
 
-/* adaptacion theme ASA*/
+/* adaptacion theme MAE */
 section.top .navbar-header .logo a {
     display: inline-block;
-    background: url(../img/logo_arauco_san_antonio.svg) no-repeat;
+    background: url(../img/logo-mae.svg) no-repeat;
 }
 section.main_content section.servicios_cliente .content_servicio .desc_servicio a{
 	margin-left: 0;

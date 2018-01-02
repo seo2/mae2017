@@ -17,12 +17,6 @@
 	      </ul>
 	     </div><!-- RRSS -->
 
-    <!--   <ul class="nav navmenu-nav">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-
-      </ul> -->
 
             <div class="container width">
                 <div class="row">
@@ -31,18 +25,18 @@
 					<li><a href="<?php bloginfo('url'); ?>/tiendas#tiendas">tiendas</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/moda#tiendas">Moda</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">patio de comidas</a></li>
-				<!-- 	<li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES</a></li> -->
-					<li><a href="<?php bloginfo('url'); ?>//novedades-galeria/#galerias">galería</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretencion</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES (Ajedrez)</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">galería</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/estacionamientos">estacionamientos</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente">servicio al cliente</a></li>
-                     <!-- <li><a id="btn_novedades" href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu6; ?></a></li> -->
                 </ul>
                     <div class="divisor_h text-center"></div>
-	                    <ul class="nav navbar-nav lista_menu">
+	                 <!--    <ul class="nav navbar-nav lista_menu">
 
 
 
-	                   	</ul>
+	                   	</ul> -->
 
                    		<div class="divisor_h text-center"></div>
 		                    <div class="col-sm-12">
@@ -107,7 +101,7 @@
 				<span class="icon-bar bottom_bar"></span>
 			</button>
 			<div class="logo">
-                <a href="<?php bloginfo('url'); ?>"> Arauco Quiliciura</a>
+                <a href="<?php bloginfo('url'); ?>">Mall Arauco Estación </a>
            	</div> <!-- brand -->
 <!--
             <div id="lang_switcher" class="visible-xs visible-sm">
