@@ -31,7 +31,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 	$btn2 = "ver más restaurantes";
 } ?>
     <section class="main_content">
-	<!--     <div class="titulo_seccion ">
+	   <div class="titulo_seccion ">
 	        <div class="container">
 	        	<div class="row">
 	            	<div class="col-sm-12 col-md-10">
@@ -42,11 +42,11 @@ if(ICL_LANGUAGE_CODE=='en'){
 					</div>
 				</div>
 	        </div>
-	    </div>  -->
+	    </div>
 
       <div class="container">
           <div class="row">
-              <section  class="novedades hidden">
+              <section  class="novedades">
               <div id="novedades" class="anchor_seccion"></div>
                       <div class="grid_tiendas center-block">
                           <div class="container">
@@ -102,8 +102,8 @@ if(ICL_LANGUAGE_CODE=='en'){
 									</div> <!-- box horizontal -->
 								</div> <!-- col sm 12 -->
 							</div><!-- fin row -->
-<!--
-						    <div class="row">
+
+						  <!--   <div class="row">
 						        <section class="entretencion clearfix">
 							   	<?php
 								   	$e = 0;
@@ -126,14 +126,12 @@ if(ICL_LANGUAGE_CODE=='en'){
 										}
 									} ?>
 							    </section>
-							</div>
--->
+							</div> -->
+
 							<?php endwhile; else: ?>
 							<?php endif; ?>
                         </div> <!-- container grilla novedades -->
-
                       </div><!-- grid tiendas -->
-
               </section> <!-- end novedades -->
       </div>
 
@@ -143,12 +141,10 @@ if(ICL_LANGUAGE_CODE=='en'){
          <div class="titulo_seccion ">
 	        <div class="container">
 	        	<div class="row">
-	            	<div class="col-sm-12 col-md-10">
+	            	<div class="col-sm-12">
 	               		<h4 class="divider"><?php echo $tit2; ?></h4>
 	            	</div>
-					<div class="col-sm-12 col-md-2">
-						<a href="<?php bloginfo('url'); ?>" class="back">< <?php echo $back; ?></a>
-					</div>
+
 				</div>
 	        </div>
 	    </div> <!-- titulo seccion -->
