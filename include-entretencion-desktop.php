@@ -1,22 +1,23 @@
 
 <div class="container">
-  <div class="row">	    
+
+  <div class="row">
 <?php
 	$args = array(
 		'post_type'	=> array('novedades')
 	);
     $n = 0;
-    $query = new WP_Query( $args ); 
+    $query = new WP_Query( $args );
 	if ( $query->have_posts() ) {
 		while ( $query->have_posts() ) : $query->the_post();
 			$url = 'javascript:void(0);';
 			if(get('adicionales_enlace')){
 				$url = get('adicionales_enlace');
 			}
-			
+
 			$n++;
 			$post_slug = 'novedad'.$n;
-				
+
 ?>
     <div class="col-xs-6 col-sm-3 col-md-3">
         <div class="box_servicio" id="<?php echo $post_slug; ?>box">
@@ -28,17 +29,17 @@
           <a  href="<?php echo $url; ?>" <?php if(get('adicionales_enlace_externo')){ ?> target="_blank" <?php } if(!get('adicionales_enlace')){ ?> data-toggle="collapse" data-target="#<?php echo $post_slug; ?>" <?php } ?>><?php echo get('adicionales_titulo'); ?></a>
         </div>
     </div>
-<?php 
-        endwhile; 
-	} 
+<?php
+        endwhile;
+	}
 	$n = 0;
-    $query = new WP_Query( $args ); 
+    $query = new WP_Query( $args );
 	if ( $query->have_posts() ) {
 		while ( $query->have_posts() ) : $query->the_post();
-			
+
 			$n++;
 			$post_slug = 'novedad'.$n;
-				
+
 ?>
     <div id="<?php echo $post_slug; ?>" class="content_servicio collapse" >
     	<div id="<?php echo $post_slug; ?>ancla" class="anclita"></div>
@@ -60,8 +61,8 @@
                             </div>
                             <div class="col-xs-4">
                             	<img src="<?php bloginfo('template_url'); ?>/assets/img/logo_happyland.png" alt="" class="img-responsive pull-right">
-                            </div> 
-                        </div>    
+                            </div>
+                        </div>
                     </div> -->
                     <?php }elseif($post->ID == 434){ ?>
 <!--
@@ -72,8 +73,8 @@
                             </div>
                             <div class="col-xs-4">
                             	<img src="<?php bloginfo('template_url'); ?>/assets/img/cinemark.jpg" alt="" class="img-responsive pull-right">
-                            </div> 
-                        </div>    
+                            </div>
+                        </div>
                     </div>
 -->
                     <?php } ?>
@@ -83,18 +84,18 @@
 						<?php the_content(); ?>
                     </div>
                	</div>
-            </div>                    
-        </div> <!-- container -->         
+            </div>
+        </div> <!-- container -->
     </div> <!-- content galeria de arte  -->
-<?php 
-        endwhile; 
-	} 
-?>       
+<?php
+        endwhile;
+	}
+?>
   </div>
 </div>
 
 
-    
+
 
 
 

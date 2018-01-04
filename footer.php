@@ -67,13 +67,14 @@ if(ICL_LANGUAGE_CODE=='en'){
       <div class="row">
           <div class="col-xs-12 col-sm-4">
             <ul class="menu_footer">
-              <li class=""><a href="http://www.parauco.com/" target="_blank"><?php echo $menu1; ?></a></li>
-              <li><a href="<?php bloginfo('url'); ?>/contacto-comercial"><?php echo $menu2; ?></a></li>
-              <li><a href="https://secure.ethicspoint.com/domain/media/es/gui/23025/index.html" target="_blank"><?php echo $menu3; ?></a></li>
-              <li><a href="<?php bloginfo('url'); ?>/terminos-y-condiciones"><?php echo $menu4; ?></a></li>
-              <li><a href="http://sistemas.parquearauco.cl/Relatorios/Inicio.aspx" target="_blank"><?php echo $menu5; ?></a></li>
-              <li><a href="http://sistemas.parquearauco.cl/Portal" target="_blank"><?php echo $menu6; ?></a></li>
-              <li><a href="<?php bloginfo('url'); ?>/legales-concursos"><?php echo $menu7; ?></a></li>
+				<!-- investor relations <li class=""><a href="http://www.parauco.com/" target="_blank"><?php echo $menu1; ?></a></li> -->
+				<li><a href="<?php bloginfo('url'); ?>/horarios">horarios</a></li>
+				<li><a href="<?php bloginfo('url'); ?>/legales-concursos"><?php echo $menu7; ?></a></li>
+				<li><a href="<?php bloginfo('url'); ?>/contacto-comercial"><?php echo $menu2; ?></a></li>
+				<li><a href="https://secure.ethicspoint.com/domain/media/es/gui/23025/index.html" target="_blank"><?php echo $menu3; ?></a></li>
+				<li><a href="<?php bloginfo('url'); ?>/terminos-y-condiciones"><?php echo $menu4; ?></a></li>
+				<li><a href="http://sistemas.parquearauco.cl/Relatorios/Inicio.aspx" target="_blank"><?php echo $menu5; ?></a></li>
+				<li><a href="http://sistemas.parquearauco.cl/Portal" target="_blank"><?php echo $menu6; ?></a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-6">
@@ -96,17 +97,16 @@ if(ICL_LANGUAGE_CODE=='en'){
                   </div>
                   <div class="bullet-content">
 					<?php if(ICL_LANGUAGE_CODE=='en'){ ?>
-                    <h2>TIME SCHEDULES</h2>
-                    <p>MONDAYS TO SUNDAYS FROM 10:30 AM. TO 9 PM.</p>
+						<h2>TIME SCHEDULES</h2>
+						<p>MONDAYS TO SUNDAYS FROM 10:00 AM. TO 9 PM.</p>
 <!--                     <p>SUNDAYS AND HOLIDAYS FROM 11 AM. TO 9 PM.</p> -->
-					<?php }elseif(ICL_LANGUAGE_CODE=='pt-br'){  ?>
-                    <h2>HORÁRIOS</h2>
-                    <p>SEGUNDA A DOMINGO DAS 10:30H ATÉ AS 21:00H.</p>
+					<?php }elseif(ICL_LANGUAGE_CODE=='pt-br'){?>
+						<h2>HORÁRIOS</h2>
+						<p>SEGUNDA A DOMINGO DAS 10:00H ATÉ AS 21:00H.</p>
 <!--                     <p>DOMINGO E FERIADOS DAS 11:00H ATÉ AS 21:00H.</p> -->
 					<?php }else{  ?>
-                    <h2>horarios</h2>
-                    <p>Lunes a Domingo: 10:00 a 21:30 hrs.</p>
-
+						<h2>horarios</h2>
+						<p>Lunes a Domingo: 10:00 a 21:00 hrs.</p>
 					<?php } ?>
                   </div>
                 </li>
@@ -123,19 +123,6 @@ if(ICL_LANGUAGE_CODE=='en'){
           <div class="copy">
               <?php echo date("Y"); ?> © Todos los derechos reservados.
           </div>
-<!--
-          <div class="trip_advisor">
-              <div id="TA_socialButtonBubbles464" class="TA_socialButtonBubbles">
-                  <ul id="RuQEoXeD" class="TA_links x91SAq">
-                      <li id="ErqX32" class="PZPJHn">
-                      <a target="_blank" href="https://www.tripadvisor.cl/Attraction_Review-g294305-d2491922-Reviews-Parque_Arauco-Santiago_Santiago_Metropolitan_Region.html"><img src="https://www.tripadvisor.cl/img/cdsi/img2/branding/socialWidget/20x28_green-21693-2.png"/></a>
-                      </li>
-                  </ul>
-              </div>
-              <script src="https://www.jscache.com/wejs?wtype=socialButtonBubbles&amp;uniq=464&amp;locationId=2491922&amp;color=green&amp;size=rect&amp;lang=es_CL&amp;display_version=2"></script>
-
-          </div>
---> <!-- trip advisor -->
       </div><!-- footer_bottom -->
     </div>
     <!-- js -->

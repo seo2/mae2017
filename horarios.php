@@ -40,7 +40,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 	                <div class="row">
 		                <div class="col-md-12 ">
 		                     <div class="desc_servicio">
-		                        <section class="box_horarios">
+		                        <section class="box_horarios clearfix">
 		                            <div class="col-sm-12">
 
 									<?php
@@ -103,7 +103,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 								<?php endif; ?>
 								<?php wp_reset_query(); ?>
 								<?php $i++; ?>
-                                           <div class="panel panel-default hide">
+                                           <div class="panel panel-default hide ">
                                               <div class="panel-heading" role="tab" id="">
                                                   <!-- <div class="ribbon"></div> -->
                                                 <h4 class="panel-title">
@@ -120,7 +120,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                                        </div>
                                                      </div>
 
-                                                <table id="table_horarios_estacionamientos" class="table table-bordered hide">
+                                                <table id="table_horarios_estacionamientos hide" class="table table-bordered ">
                                                      <tr>
                                                        <td colspan="5" align="center" class="titulo_tabla">
                                                          <h5>ESTACIONAMIENTOS</h5>
@@ -175,13 +175,6 @@ if(ICL_LANGUAGE_CODE=='en'){
                                                          <td>7:00</td>
                                                          <td>22:00</td>
                                                        </tr>
-                                                       <!-- <tr>
-                                                         <td></td>
-                                                         <td></td>
-                                                         <td></td>
-                                                         <td></td>
-                                                         <td></td>
-                                                       </tr> -->
                                                      </table> <!-- end tabla horarios -->
                                                 </div>
                                               </div>

@@ -95,7 +95,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                 .embed-container object,
                             	.embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
                             		<div class='embed-container'>
-                            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.8986286669565!2d-71.61603078479733!3d-33.58198118073649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966238e6aa6391c9%3A0x39ebbb26447ed37c!2sArauco+San+Antonio!5e0!3m2!1ses-419!2scl!4v1513880894715" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.9141826857317!2d-70.68168394865383!3d-33.451542280679185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c4f812d95c21%3A0xd49a7cbdcc12ee3f!2sAv+Libertador+Bernardo+O&#39;Higgins+3250%2C+Santiago%2C+Estaci%C3%B3n+Central%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1515077751330" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                             		</div>
                                </div>
                           </div>
