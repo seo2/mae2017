@@ -126,7 +126,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                      <li><a href="<?php bloginfo('url'); ?>/moda#tiendas">Moda</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">patio de comidas</a></li>
                                      <li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretención</a></li>
-                                     <li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES (Ajedrez)</a></li>
+                                     <li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES</a></li>
 
                                 </ul>
                             </div>
@@ -137,8 +137,8 @@ if(ICL_LANGUAGE_CODE=='en'){
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
+								<li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">Galería</a></li>
-                                <li><a href="<?php bloginfo('url'); ?>/estacionamientos">estacionamientos</a></li>
                                 <li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente">servicio al cliente</a></li>
 
 							</ul>
