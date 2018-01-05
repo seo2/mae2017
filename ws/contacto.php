@@ -21,26 +21,26 @@ if ($ajax) {
 
 
 if($tipo==1){
-	$servicio = "Servicio al Cliente";
+	$servicio ="Servicio al Cliente";
 	$to = "lcerda@parauco.com";
 }elseif($tipo==2){
 	$servicio = "Estacionamientos";
-	$to = "lcerda@parauco.com";
+	$to = "jsandoval@parauco.com";
 }elseif($tipo==3){
 	$servicio = "Actividades del mall";
-	$to = "dmusri@parauco.com";
+	$to = "mjsalinas@parauco.com";
 }elseif($tipo==4){
 	$servicio = "Arriendo espacios y locales";
-	$to = "mjbenavides@parauco.com";
+	$to = "tmendez@parauco.com";
 }elseif($tipo==5){
 	$servicio = "Arriendo Plazas, Activaciones y Medios";
-	$to = "tmendez@parauco.com";
+	$to = "jmarin@parauco.com";
 }elseif($tipo==6){
 	$servicio = "Arriendo Módulos";
-	$to = "claudio.gonzalez@parauco.com";
+	$to = "jmarin@parauco.com";
 }elseif($tipo==7){
 	$servicio = "Sitio web y redes sociales";
-	$to = "dmusri@parauco.com";
+	$to = "mcrisosto@parauco.com";
 }
 
 //	$to 	 = 'seodos@gmail.com';
