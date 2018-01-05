@@ -25,8 +25,8 @@
 					<li><a href="<?php bloginfo('url'); ?>/tiendas#tiendas">tiendas</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/moda#tiendas">Moda</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/patio-de-comidas#tiendas">patio de comidas</a></li>
-					<li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretencion</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/novedades#novedades">NOVEDADES / ACTIVIDADES</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/novedades#entretencion">entretencion</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">galería</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente">servicio al cliente</a></li>
                 </ul>
