@@ -2429,9 +2429,30 @@ section.main_content section.travellers_servicios_adicionales .content_servicio 
 	}
 
 }
-
-
-
+.box_agencia .head_agencia{
+	width: 100%;
+}
+.box_agencia img{
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.box_agencia .head_agencia h2{
+	font-family: 'superclarendonlight_italic', Helvetica, Arial, sans-serif !important;
+	font-size: 1em;
+	color: black;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 95%;
+	line-height: 18px;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
 
 
 

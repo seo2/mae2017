@@ -47,7 +47,7 @@ if(ICL_LANGUAGE_CODE=='en'){
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-10">
-               <h4 class="divider"><?php echo $tit1; ?></h4>
+               <h4 class="divider"><?php echo $tit2; ?></h4>
             </div>
             <div class="col-sm-12 col-md-2">
                  <a href="<?php bloginfo('url'); ?>/servicio-al-cliente" class="back">< <?php echo $back; ?></a>
@@ -59,11 +59,11 @@ if(ICL_LANGUAGE_CODE=='en'){
     <section class="main_content">
     	<div class="container">
         	<div class="row">
-				<section class="travellers_servicios_generales clearfix">
+				<!-- <section class="travellers_servicios_generales clearfix">
 					<div class="col-sm-12">
-		            	<?php include('include-slider-travellers-servicios-generales.php'); ?>
+		            	<?php //include('include-slider-travellers-servicios-generales.php'); ?>
 					</div>
-          		</section><!-- travellers servicios generales -->
+          		</section> -->
 
 		  		<section class="travellers_servicios_adicionales clearfix">
 		<?php

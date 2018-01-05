@@ -1,4 +1,4 @@
-<h4 class="divider"><?php echo $tit2; ?></h4>
+<!-- <h4 class="divider"><?php //echo $tit2; ?></h4> -->
 <div class="container">
   <div class="row">
     <div class="col-xs-6">
