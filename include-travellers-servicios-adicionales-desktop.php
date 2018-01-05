@@ -79,20 +79,6 @@
 		                              </div>
 		                       </div>
 		                 </div>
-		          <!--        <div class="col-md-4">
-		                 <div class="box_agencia">
-		                       <div class="head_agencia">
-		                         <img src="<?php //bloginfo('template_url'); ?>/assets/img/logo_santander.jpg">
-		                       </div>
-		                       <div class="desc_servicio text-center">
-		                           <p> Lunes a Viernes <br>
-		                             de 09:00 a 14:00 hrs  <br>
-		                                  </p>
-		                                  <p class="tel"> Tel.: +56232054249 </p>
-		                                   <a href="http://www.santander.cl/" target="_blank" class="url_agencia">www.santander.cl</a>
-		                       </div>
-		                     </div>
-		                 </div> -->
 					</div> <!-- row -->
 			</div>  <!-- container -->
 
@@ -182,6 +168,7 @@
 	        <div class="container">
 	        <h4 class="divider rojo"><?php the_title(); ?></h4>
 	        <div class="close_servicio" data-target="#serv4"> </div>
+	        <div class="row">
                 <div class="col-md-3">
                        <div class="box_agencia">
 							<div class="head_agencia">
@@ -287,6 +274,8 @@
                               </div>
                        </div>
                  </div>
+	        </div>
+
 	        </div>
 	    </div> <!-- content taxis -->
 		<?php endwhile; else: ?>
