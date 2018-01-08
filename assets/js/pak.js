@@ -767,14 +767,14 @@ $('.bigtext').bigtext({
 
 /* MODAL */
 
-// var laurl = $('.modal_overlay').data('url');
-// var template = $('.modal_overlay').data('template');
-// var cookie = Cookies.get('formulario');
-// if(cookie==1){
-// 	$('.modal_overlay').hide();
-// }else{
-//  $('.modal_overlay').show();
-// }
+var laurl = $('.modal_overlay').data('url');
+var template = $('.modal_overlay').data('template');
+var cookie = Cookies.get('formulario');
+if(cookie==1){
+	$('.modal_overlay').hide();
+}else{
+ $('.modal_overlay').show();
+}
 
 
 $("#modReg").bind("change", function() {
