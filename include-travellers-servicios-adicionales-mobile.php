@@ -393,7 +393,7 @@
 	<div class="col-xs-6">
 		<div class="box_servicio" id="serv5xsbox">
 			<a href="javascript:void(0);" class="borde_verde" data-toggle="collapse" data-target="#serv5xs">
-			  	<img src="<?php bloginfo('template_url'); ?>/assets/img/hotel.svg"  class="center-block">
+			  	<img src="<?php bloginfo('template_url'); ?>/assets/img/farmacia.svg"  class="center-block">
 			  	<p>Farmacias</p>
 			</a>
 		</div>
@@ -404,7 +404,7 @@
 	<div class="col-xs-6">
 		<div class="box_servicio" id="serv6xsbox">
 			<a href="javascript:void(0);" class="borde_verde" data-toggle="collapse" data-target="#serv6xs">
-			  	<img src="<?php bloginfo('template_url'); ?>/assets/img/hotel.svg"  class="center-block">
+			  	<img src="<?php bloginfo('template_url'); ?>/assets/img/custodia.svg"  class="center-block">
 			  	<p>Custodia</p>
 			</a>
 		</div>
