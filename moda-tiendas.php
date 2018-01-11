@@ -61,7 +61,7 @@ Template name: Moda Tiendas
 									  	}else{
 	                                    	$logo = '/ws/logos/'. quitatodo($t['nombre']).'.jpg';
 	                                    	$logo = get_template_directory_uri().$logo;
-	
+
 	                                		if(is_url_exist($logo)){
 		                                		$logo = $logo;
 		                                		$haylogo = 'si';
@@ -71,7 +71,7 @@ Template name: Moda Tiendas
 		                                		$haylogo = 'no';
 										  	}
 									  	}
-										$url	= $t['url_punto_interes']; 
+										$url	= $t['url_punto_interes'];
 										if (strpos($url,'http://') === false){
 										    $url = 'http://'.$url;
 										}
@@ -119,7 +119,7 @@ Template name: Moda Tiendas
       </div>
 
 <?php // include('include-boulevard-otras-tiendas.php'); ?>
-<div id="pages" style="display:none;" data-pagina="food-court-tiendas">
+<div id="pages" style="display:none;" data-pagina="moda">
 <?php
 	$postperpage = 12;
 	$rowcount = 0;
@@ -137,7 +137,7 @@ Template name: Moda Tiendas
 	$x = 1;
 	while($x <= $paginas) {
 	?>
-		<a href="<?php bloginfo('url'); ?>/boulevard-tiendas?page=<?php echo  $x.$cola; ?>"></a>
+		<a href="<?php bloginfo('url'); ?>/moda?page=<?php echo  $x.$cola; ?>"></a>
 	<?php
 		$x++;
 	}
