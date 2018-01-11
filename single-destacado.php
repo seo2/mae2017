@@ -9,7 +9,7 @@
             <div class="col-sm-12 col-md-10">
             	<?php
             	    $args = array(
-            			'post_type' 		=> 'destacado',
+            			'post_type' 	=> 'destacado',
             			'posts_per_page' => 1
             	    );
             		$the_query = new WP_Query ($args);
@@ -29,7 +29,6 @@
         <section class="cartelera clearfix">
         <div id="cartelera" class="anchor_seccion"></div>
             <div class="container">
-
 	              <div class="row">
 	                <div class="col-sm-12">
 	                   <img class="img-responsive visible-md visible-lg center-block" src="<?php echo get('img_lg'); ?>" alt="" >

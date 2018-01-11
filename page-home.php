@@ -33,15 +33,15 @@ if(ICL_LANGUAGE_CODE=='en'){
 	$btn1 = "ver todas las tiendas";
 	$btn2 = "ver más";
 } ?>
-<?php
-    $args = array(
-		'post_type' => array('home')
-    );
-	$the_query = new WP_Query ($args);
-    $i = 0;
-    if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
-    	$i++;
-?>
+		<?php
+		    $args = array(
+				'post_type' => array('home')
+		    );
+			$the_query = new WP_Query ($args);
+		    $i = 0;
+		    if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+		    	$i++;
+		?>
         	<div class="row">
               <div class="col-sm-6 col-md-6">
                   <div class="box">
@@ -207,12 +207,12 @@ if(ICL_LANGUAGE_CODE=='en'){
                         <div class="box_slider owl-carousel owl-theme ">
                             <?php
 								$e = 0;
-								$sliders = get_order_group('estacionamientos_imagen_slider');
+								$sliders = get_order_group('destacado_imagen_slider');
 								foreach($sliders as $slider){
 								$e++;
                           	?>
 								<div class="item">
-									<a href="<?php bloginfo('url'); ?>/estacionamientos">
+									<a href="<?php bloginfo('url'); ?>/destacado/estacionamientos">
 								    	<?php if($e==1){ ?>
 											<div class="caption entretencion">
 												<p> nuestros </p>
@@ -220,7 +220,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 												<div class="divider"> </div>
 											</div>
 								       <?php } ?>
-								       <div class="box_slide" style="background: url(<?php echo get('estacionamientos_imagen_slider',$slider); ?>);"> </div>
+								       <div class="box_slide" style="background: url(<?php echo get('destacado_imagen_slider', $slider); ?>);"> </div>
 								    </a>
 								</div> <!-- item -->
                            <?php } ?>
