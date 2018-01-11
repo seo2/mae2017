@@ -20,8 +20,8 @@
 			<div class="row">
 				<section class="entretencion clearfix">
 					<div class="grid_tiendas center-block">
-<?php if (have_posts()) : ?>
-<?php while (have_posts()) : the_post(); ?>					
+					<?php if (have_posts()) : ?>
+					<?php while (have_posts()) : the_post(); ?>
 						<!--GALERIA-->
 						<div class="box-galery">
 							<?php $imagenes = muestra_galeria(); ?>
@@ -34,11 +34,11 @@
 							<?php endforeach ?>
             			</div>
 						<!--FIN GALERIA-->
-<?php endwhile; ?>
-<?php // Navegación ?>
-<?php else : ?>
-<?php // Cuando no hay post ?>
-<?php endif; ?>						
+					<?php endwhile; ?>
+					<?php // Navegación ?>
+					<?php else : ?>
+					<?php // Cuando no hay post ?>
+					<?php endif; ?>
         			</div>
         		</section> <!-- entretencion -->
     		</div><!-- row -->

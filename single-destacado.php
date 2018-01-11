@@ -2,19 +2,23 @@
 <?php include('include-top.php') ?>
 <?php include('include-slider-home.php') ?>
 <?php include('include-search-home.php') ?>
-<?php
-$dias  = array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
-$meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
-?>
     <section class="main_content">
        <div class="titulo_seccion">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-10">
-                <h4 class="divider">Cartelera Novedades</h4>
+            	<?php
+            	    $args = array(
+            			'post_type' 		=> 'destacado',
+            			'posts_per_page' => 1
+            	    );
+            		$the_query = new WP_Query ($args);
+            	    if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+            	?>
+                <h4 class="divider"><?php the_title(); ?></h4>
             </div>
             <div class="col-sm-12 col-md-2">
-              <a href="<?php bloginfo('url'); ?>/novedades/#novedades" class="back">< <?php echo $back; ?></a>
+              <a href="<?php bloginfo('url'); ?>" class="back">< <?php echo $back; ?></a>
             </div>
           </div>
         </div>
@@ -25,12 +29,11 @@ $meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "
         <section class="cartelera clearfix">
         <div id="cartelera" class="anchor_seccion"></div>
             <div class="container">
-				<?php if (have_posts()) : ?>
-				<?php while (have_posts()) : the_post(); ?>
+
 	              <div class="row">
 	                <div class="col-sm-12">
-	                   <img class="img-responsive visible-md visible-lg center-block" src="<?php echo get('imagen_desktop'); ?>" alt="<?php the_title(); ?>" >
-	                   <img class="img-responsive visible-xs visible-sm center-block" src="<?php echo get('imagen_mobile'); ?>" alt="<?php the_title(); ?>" >
+	                   <img class="img-responsive visible-md visible-lg center-block" src="<?php echo get('img_lg'); ?>" alt="" >
+	                   <img class="img-responsive visible-xs visible-sm center-block" src="<?php echo get('img_xs'); ?>" alt="" >
 	                </div>
 	              </div>
 	              <div class="row">
