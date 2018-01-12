@@ -14,7 +14,7 @@ Template name: Moda Tiendas
           <div class="row">
               <section class="tiendas">
               <div id="tiendas" class="anchor_seccion"></div>
-                  <h4 class="divider">Patio de Comidas</h4>
+                  <h4 class="divider">Moda</h4>
 
                    <a href="<?php bloginfo('url'); ?>" class="back">< <?php echo $back; ?></a>
                       <div class="grid_tiendas center-block">
