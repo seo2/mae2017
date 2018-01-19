@@ -55,7 +55,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 }else{
 	$menu1 = "Investor Relations";
 	$menu2 = "Contacto Comercial";
-	$menu3 = "Código Conducta Empresarial";
+	$menu3 = "CONDUCTA EMPRESARIAL/CANAL DE DENUNCIAS ETHICS POINT";
 	$menu4 = "Términos y Condiciones de Uso";
 	$menu5 = "Relatorios de ventas";
 	$menu6 = "Proveedores y Locatarios";
