@@ -2544,6 +2544,15 @@ section.main_content section.travellers_servicios_adicionales .content_servicio 
 
 /*fin css nuevo modal*/
 
+@media (max-width: 991px){
+	section.top #nav_mobile .navbar-header .logo a {
+	    background: url(../img/logo_xs.svg) no-repeat;
+	    width: 130px;
+	    height: 120px;
+	}
+}
+
+
 
 
 

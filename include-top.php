@@ -98,7 +98,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 
                 <div class="rrss hidden-xs hidden-sm">
                    <ul>
-                     <li><a href="https://www.facebook.com/AraucoSanAntonio/" target="_blank"><i class="fa fa-facebook hvr-float" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.facebook.com/MallAraucoEstacion/" target="_blank"><i class="fa fa-facebook hvr-float" aria-hidden="true"></i></a></li>
 <!--
                      <li><a href="https://www.instagram.com/parquearauco/" target="_blank"><i class="fa fa-instagram hvr-float" aria-hidden="true"></i></a></li>
                      <li><a href="https://twitter.com/parquearauco" target="_blank"><i class="fa fa-twitter hvr-float" aria-hidden="true"></i></a></li>
