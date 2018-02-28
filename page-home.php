@@ -257,7 +257,8 @@ if(ICL_LANGUAGE_CODE=='en'){
 			<div class="header_modal">
 				<div class="row">
 					<div class="col-9">
-						<div class="img_mall"> </div>
+						<!-- <div class="img_mall"> </div> -->
+						<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/img_modal_sa.jpg" alt="">
 					</div>
 					<div class="col-3">
 						<div class="logo"> </div>
